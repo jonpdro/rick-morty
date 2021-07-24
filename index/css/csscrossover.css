@@ -1,0 +1,134 @@
+﻿*{
+	margin: 0px; 
+	padding: 0px;
+}
+
+/* Background-Corpo */
+body{
+	background-image: url("../img/header/background.jpg");
+	background-position: justify;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+/* Titulo */
+header{
+  width: 100%;
+  height: 140px;
+  background-color: #4d4669;
+}
+#logo{
+  width: 710px;
+  height: 130px;
+  margin-left: 440px;
+}
+
+/* Conteúdo */
+section{
+	width: auto;
+	height: auto;
+  margin: 0 0 ;
+	background-color: #48c81bf1;
+}
+
+/* Assinatura */
+footer{
+	padding-bottom: 8px;
+	width: 100%;
+	background-color: #4d4669;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+/* Menu do site */
+ul.menuUm {
+  list-style-type: none;
+  padding: 0;
+  width: 69px;
+  background-color: #4d4669;
+}
+
+li a { 
+  display: block;
+  color: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+/* A cor da hover*/
+li a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* CSS do Menu */
+li a, .menu2 {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li.menu1 {
+  display: inline-block;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #48a415e9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.menu-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: list-item;
+  text-align: left;
+}
+
+.menu-content a:hover {background-color: white;}
+
+.menu1:hover .menu-content {
+  display: block;
+}
+
+/*Conteúdo 2.0*/
+h4.a{
+  text-align: center;
+  font-size: 45px;
+  font-family: Century Gothic;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+h4.b{
+  text-align: justify;
+  font-size: 19px;
+  font-family: Bookman Old Style;
+  text-indent: 30px;
+  margin-left: 220px;
+  margin-right: 240px;
+  color: #101010;
+}
+
+h5{
+  font-size: 24px;
+  font-family: Century Gothic;
+  color: white;
+  text-shadow: 3px 3px black;
+  margin-left: 200px;
+}
+
+.video{
+  width:100%:
+}
+.video iframe{
+   margin: 0 auto;
+   display: block;
+   width: 700px;
+   height: 350px;
+}
